@@ -1,9 +1,10 @@
 # CryptoAtlas
 
-![CryptoAtlas Logo]()
+![CryptoAtlas Logo](app/src/main/ic_launcher-playstore.png)
 
 CryptoAtlas is a comprehensive cryptocurrency tracking app that allows users to explore and monitor data for various cryptocurrencies from around the world. It provides real-time information, price trends, historical data, and other essential details for each coin, making it a valuable tool for crypto enthusiasts, investors, and traders.
 
+![Check out logo](https://looka.com/s/140548111)
 ## Features
 
 - 💸 **Extensive Coin Listing**: Access an extensive list of cryptocurrencies from different exchanges and tokens available in the market.
