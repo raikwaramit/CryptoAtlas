@@ -92,6 +92,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha01")
     implementation("androidx.navigation:navigation-compose:2.7.0-rc01")
     implementation("com.google.accompanist:accompanist-flowlayout:0.17.0")
+
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.compose.material3:material3:1.2.0-alpha04")
 }
 
 // Allow references to generated code
