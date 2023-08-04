@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
@@ -23,18 +24,21 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import coil.compose.AsyncImage
 import com.raikwaramit.cryptoatlas.presentation.coin_detail.components.CoinTag
 import com.raikwaramit.cryptoatlas.presentation.coin_detail.components.TeamListItem
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun CoinDetailScreen(
-    viewModel: CoinDetailViewModel = hiltViewModel()
+    viewModel: CoinDetailViewModel = hiltViewModel(),
 ) {
     val state = viewModel.state.value
-    Box(modifier = Modifier
-        .fillMaxSize()
-        .padding(10.dp)) {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(10.dp)
+    ) {
         state.coinDetails?.let { coin ->
             LazyColumn(modifier = Modifier.fillMaxSize()) {
                 item {
@@ -55,6 +59,17 @@ fun CoinDetailScreen(
                         )
 
                     }
+                    coin.logo?.let { logoLink ->
+                        AsyncImage(
+                            model = logoLink,
+                            contentDescription = "Currency logo",
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .align(Alignment.Center)
+                                .size(100.dp)
+                        )
+                    }
+
                     Spacer(modifier = Modifier.height(15.dp))
                     Text(text = coin.description, style = MaterialTheme.typography.bodyMedium)
                     Spacer(modifier = Modifier.height(15.dp))

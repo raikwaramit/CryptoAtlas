@@ -11,5 +11,5 @@ data class Stats(
     @SerializedName("stars")
     val stars: Int,
     @SerializedName("subscribers")
-    val subscribers: Int
+    val subscribers: Int,
 )

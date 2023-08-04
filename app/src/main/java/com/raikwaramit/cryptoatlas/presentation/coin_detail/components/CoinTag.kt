@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun CoinTag(
-    tag: String
+    tag: String,
 ) {
     Box(
         modifier = Modifier

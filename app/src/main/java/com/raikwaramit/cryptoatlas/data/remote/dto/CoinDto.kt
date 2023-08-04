@@ -11,7 +11,7 @@ data class CoinDto(
     @SerializedName("rank") var rank: Int? = null,
     @SerializedName("is_new") var isNew: Boolean? = null,
     @SerializedName("is_active") var isActive: Boolean? = null,
-    @SerializedName("type") var type: String? = null
+    @SerializedName("type") var type: String? = null,
 )
 
 fun CoinDto.toCoin(): Coin {

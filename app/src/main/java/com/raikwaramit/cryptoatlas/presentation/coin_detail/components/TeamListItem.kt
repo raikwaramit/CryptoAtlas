@@ -15,7 +15,7 @@ import com.raikwaramit.cryptoatlas.data.remote.dto.coin_details_dto.TeamMember
 @Composable
 fun TeamListItem(
     teamMember: TeamMember,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     Column(
         modifier = Modifier,

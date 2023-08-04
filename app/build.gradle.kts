@@ -95,6 +95,12 @@ dependencies {
 
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.compose.material3:material3:1.2.0-alpha04")
+
+    // lottie animation dependency.
+    implementation("com.airbnb.android:lottie-compose:6.1.0")
+
+    // Coil library
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }
 
 // Allow references to generated code
