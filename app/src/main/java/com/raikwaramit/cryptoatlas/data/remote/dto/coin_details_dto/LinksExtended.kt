@@ -9,5 +9,5 @@ data class LinksExtended(
     @SerializedName("type")
     val type: String,
     @SerializedName("url")
-    val url: String
+    val url: String,
 )

@@ -7,7 +7,7 @@ import com.raikwaramit.cryptoatlas.domain.repository.CoinRepository
 import javax.inject.Inject
 
 class CoinRepositoryImpl @Inject constructor(
-    private val api: CoinPaprikaApi
+    private val api: CoinPaprikaApi,
 ) : CoinRepository {
     override suspend fun getCoins(): List<CoinDto> {
         return api.getCoins()

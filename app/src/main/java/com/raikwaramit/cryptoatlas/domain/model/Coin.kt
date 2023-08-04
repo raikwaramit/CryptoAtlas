@@ -14,5 +14,5 @@ data class Coin(
     var name: String? = null,
     var rank: Int? = null,
     var isActive: Boolean? = null,
-    var symbol: String? = null
+    var symbol: String? = null,
 )

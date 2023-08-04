@@ -15,5 +15,5 @@ data class Links(
     @SerializedName("website")
     val website: List<String>,
     @SerializedName("youtube")
-    val youtube: List<String>
+    val youtube: List<String>,
 )

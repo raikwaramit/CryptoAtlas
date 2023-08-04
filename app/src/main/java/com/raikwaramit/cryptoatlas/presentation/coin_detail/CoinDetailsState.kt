@@ -5,5 +5,5 @@ import com.raikwaramit.cryptoatlas.domain.model.CoinDetail
 data class CoinDetailsState(
     val isLoading: Boolean = false,
     val coinDetails: CoinDetail? = null,
-    val error: String = ""
+    val error: String = "",
 )
