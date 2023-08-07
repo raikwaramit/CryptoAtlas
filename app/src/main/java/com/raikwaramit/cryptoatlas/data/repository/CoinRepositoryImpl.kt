@@ -6,6 +6,11 @@ import com.raikwaramit.cryptoatlas.data.remote.dto.coin_details_dto.CoinDetailsD
 import com.raikwaramit.cryptoatlas.domain.repository.CoinRepository
 import javax.inject.Inject
 
+/**
+ * Repository class implementation for providing the api to view model
+ *
+ * @property api  Retrofit api for making the network request.
+ */
 class CoinRepositoryImpl @Inject constructor(
     private val api: CoinPaprikaApi,
 ) : CoinRepository {

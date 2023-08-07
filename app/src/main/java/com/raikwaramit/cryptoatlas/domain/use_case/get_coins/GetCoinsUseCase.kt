@@ -10,6 +10,9 @@ import okio.IOException
 import retrofit2.HttpException
 import javax.inject.Inject
 
+/**
+ * Class to get the specific coin details.
+ */
 class GetCoinsUseCase @Inject constructor(
     private val repository: CoinRepository,
 ) {

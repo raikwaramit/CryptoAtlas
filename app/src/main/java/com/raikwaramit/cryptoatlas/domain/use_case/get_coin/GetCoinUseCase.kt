@@ -10,6 +10,9 @@ import okio.IOException
 import retrofit2.HttpException
 import javax.inject.Inject
 
+/**
+ * Class for getting the data of coin list that will be directly used in viewModel.
+ */
 class GetCoinUseCase @Inject constructor(
     private val repository: CoinRepository,
 ) {
@@ -20,7 +23,6 @@ class GetCoinUseCase @Inject constructor(
             emit(Resource.Success(coin))
         } catch (e: HttpException) {
             emit(Resource.Error(e.localizedMessage ?: ""))
-
         } catch (e: IOException) {
             emit(Resource.Error(e.localizedMessage ?: ""))
         }
