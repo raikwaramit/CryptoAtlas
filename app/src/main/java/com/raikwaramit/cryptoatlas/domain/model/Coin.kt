@@ -3,11 +3,11 @@ package com.raikwaramit.cryptoatlas.domain.model
 /**
  * Coin data class having coin details that will be shown.
  *
- * @property id
- * @property name
- * @property rank
- * @property isActive
- * @property symbol
+ * @property id Id of the coin.
+ * @property name Name of the coin.
+ * @property rank Word wide rank of the coin.
+ * @property isActive Is currently in active state.
+ * @property symbol Symbol of the coin.
  */
 data class Coin(
     var id: String? = null,
