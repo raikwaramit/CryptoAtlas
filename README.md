@@ -1,6 +1,6 @@
 # CryptoAtlas
 
-![CryptoAtlas Logo](app/src/main/ic_launcher-playstore.png)
+<img src="app/src/main/ic_launcher-playstore.png" width="120"/>
 
 CryptoAtlas is a comprehensive cryptocurrency tracking app that allows users to explore and monitor
 data for various cryptocurrencies from around the world. It provides real-time information, price
@@ -24,14 +24,11 @@ crypto enthusiasts, investors, and traders.
   one place.
 
 ## Screenshots
-
-![Screenshot 1](screenshots/mainscreen_normal.png)
-![Screenshot 2](screenshots/navigation_drawer.png)
-![Screenshot 3](screenshots/detail_coindetail.png)
-![Screenshot 3](screenshots/mainscreen_search.png)
-![Screenshot 4](screenshots/favoritescreen.png)
-![Screenshot 5](screenshots/about_app.png)
-![Screenshot 6](screenshots/contact_us.png)
+|Screenshots| | |
+|- |- |- |
+| <img src="screenshots/mainscreen_normal.png" width="320"/> |<img src="screenshots/navigation_drawer.png" width="320"/>|<img src="screenshots/detail_coindetail.png" width="320"/>|
+|<img src="screenshots/mainscreen_search.png" width="320"/>|<img src="screenshots/favoritescreen.png" width="320"/> |<img src="screenshots/about_app.png" width="320"/>|
+| <img src="screenshots/contact_us.png" width="320"/>|<img src="screenshots/mainscreen_search.png" width="320"/>| |
 
 ## Getting Started
 
